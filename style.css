@@ -61,12 +61,26 @@ img {
     padding: 1em;
 }
 .col-pad {
-    padding: 0 1em;
+    padding-right: 0.5em;
 }
 
+/* Setting columns widths through individual elements*/
 .col-fullWidth{
     width: 100%;
 }
+.col-1 {
+    width: 30%;
+}
+.col-2 {
+    width: 45%;
+}
+.col-3 {
+    width: 75%;
+}
+.col-4 {
+    width: 25%;
+}
+
 .btn {
 	display: inline-block;
 	color: #eedcdc;
