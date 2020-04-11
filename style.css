@@ -1,0 +1,91 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Baloo Paaji 2', cursive;
+    font-size: 1rem;
+    color: rgb(18, 32, 73);
+    background-color: #FFF;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5rem;
+}
+.centered {
+    text-align: center;
+}
+p {
+    margin-top: 0;
+}
+
+/* end Typography */
+span {
+    color:#B7832F;
+}
+
+.container-smaller {
+    width: 100%;
+}
+
+/* layout */
+.container {
+    width: 90%;
+    max-width: 980px;
+    margin: 0 auto;
+    /* border: 5px purple solid; */
+    padding: 5px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.columns {
+    /* border: 5px yellow solid; */
+    display: flex;
+    margin: 1em 0;
+}
+/* end of layout styling */
+
+.col-colorNew {
+    background-color: #312614;
+    color: #a8a1a1;
+    padding: 1em;
+}
+.col-pad {
+    padding: 0 1em;
+}
+
+.col-fullWidth{
+    width: 100%;
+}
+.btn {
+	display: inline-block;
+	color: #eedcdc;
+	background-color: #534848;
+	border-radius: 0.18em; /*relative to the font-size of own element*/
+	padding: 0.45em; /*relative to the font-size of own element, when setting other properties*/
+	font-size: 0.9rem; /* relative to parent which we let for root element*/
+}
+
+a {
+	color:#4f4f53;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+a:hover, a:focus {
+	color: #c68282;
+	font-size: 105%;
+}
+
+ul {
+    padding-left: 1em;
+}
