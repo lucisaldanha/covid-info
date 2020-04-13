@@ -24,6 +24,7 @@ h2 {
 }
 p {
     margin-top: 0;
+    text-align: justify;
 }
 
 /* end Typography */
@@ -52,9 +53,12 @@ img {
     /* border: 5px yellow solid; */
     display: flex;
     justify-content: space-between; /* we need to add different widths for col to notice this property*/
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 /* end of layout styling */
+.col {
+    /* border: 5px pink solid; */
+}
 
 .col-colorNew {
     background-color: #312614;
