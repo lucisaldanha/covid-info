@@ -10,6 +10,14 @@ body {
     background-color: #FFF;
 }
 
+/* from minimum screen width of 650px, css will be applied on body element*/
+/* @media (min-width: 600px) and (max-width:1000px) {
+    body {
+        background-color: rgb(18, 32, 73);
+        color: silver;
+    }
+} */
+
 /* Typography */
 
 h1 {
