@@ -10,7 +10,7 @@ body {
     background-color: #FFF;
 }
 
-/* from minimum screen width of 650px, css will be applied on body element*/
+/* from minimum screen width of 600px, css will be applied on body element*/
 /* @media (min-width: 600px) and (max-width:1000px) {
     body {
         background-color: rgb(18, 32, 73);
@@ -18,7 +18,7 @@ body {
     }
 } */
 
-/* Typography */
+/******** Typography *******/
 
 h1 {
     font-size: 2.5rem;
@@ -44,10 +44,11 @@ span {
     width: 100%;
 }
 
-/* layout */
+/******* LAYOUT *******/
+
 .container {
     width: 90%;
-    max-width: 980px;
+    max-width: 980px; /* setting a maximum it will grow */
     margin: 0 auto;
     /* border: 5px purple solid; */
     padding: 5px;
@@ -63,24 +64,32 @@ img {
     justify-content: space-between; /* we need to add different widths for col to notice this property*/
     margin: 0.5em 0;
 }
-/* end of layout styling */
-.col {
-    /* border: 5px pink solid; */
+
+@media (max-width: 600px) {
+    .columns {
+    /* media query properly placed after the default selector we already have */
+        flex-direction: column;
+        /* justify-content: space-between; we need to add different widths for col to notice this property */
+    }
 }
+
+/* end of layout styling */
+
+/* .col {
+     border: 5px pink solid;
+}  */
 
 .col-colorNew {
     background-color: #312614;
     color: #a8a1a1;
     padding: 1em;
 }
-/* .col-pad {
-    padding-right: 0.5em;
-} */
 
-/* Setting columns widths through individual elements*/
+/***** Setting columns widths through individual elements *******/
 .col-fullWidth{
     width: 100%;
 }
+
 .col-1 {
     width: 25%;
 }
@@ -92,6 +101,16 @@ img {
 }
 .col-4 {
     width: 20%;
+}
+
+@media (max-width: 600px) {
+    /* media query properly placed after the default selector we already have */
+    .col-1, 
+    .col-2, 
+    .col-3, 
+    .col-4 {
+        width: 100%;
+    }
 }
 
 .btn {
