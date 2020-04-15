@@ -69,7 +69,6 @@ img {
     .columns {
     /* media query properly placed after the default selector we already have */
         flex-direction: column;
-        /* justify-content: space-between; we need to add different widths for col to notice this property */
     }
 }
 
