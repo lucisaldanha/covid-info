@@ -20,10 +20,20 @@ body {
 
 /******** Typography *******/
 
-h1 {
+
+h1.title {
     font-size: 2.5rem;
-    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+
 }
+p.subtitle {
+    font-size: 1rem;
+    margin-top: 0em;
+    text-align: center;
+
+}
+
 h2 {
     font-size: 1.5rem;
 }
@@ -36,13 +46,37 @@ p {
 }
 
 /* end Typography */
+
+.borderCheck {
+    border: 2px pink solid;
+
+}
+
+
 span {
     color:#B7832F;
 }
 
-.container-smaller {
+li.nav-li {
+    list-style-type: none;    
+}
+a.new-color {
+	color:#4f4f53;
+}
+
+a.new-color:hover {
+    color: #c68282;
+	font-size: 105%;
+}
+ul.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerImage {
     width: 100%;
 }
+
 
 /******* LAYOUT *******/
 
