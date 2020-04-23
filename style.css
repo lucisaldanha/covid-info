@@ -20,29 +20,75 @@ body {
 
 /******** Typography *******/
 
-h1 {
+h1.title {
     font-size: 2.5rem;
-    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+
 }
+p.subtitle {
+    font-size: 1rem;
+    margin-top: 0em;
+    text-align: center;
+
+}
+
 h2 {
     font-size: 1.5rem;
 }
 .centered {
     text-align: center;
 }
+
 p {
     margin-top: 0;
     text-align: justify;
 }
 
-/* end Typography */
+/***** end Typography *****/
+
+/***** Header styling *****/
+
+.borderCheck {
+    /* border: 2px pink solid; */
+}
+
+
 span {
     color:#B7832F;
 }
 
-.container-smaller {
-    width: 100%;
+/***** Navigation styling *****/
+
+.nav {
+    /* border: 2px black solid; */
 }
+
+.nav-list {
+    /* border: 2px orange solid;   */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-list-li {
+    /* border: 2px magenta solid;  */
+    margin: 0 8em;
+}
+
+.nav-link {
+    /* border: 2px green solid;  */
+    color:#4f4f53;
+
+}
+
+.nav-link:hover {
+    color: #c68282;
+	font-size: 105%;
+}
+
+/***** End of Header Styling *****/
 
 /******* LAYOUT *******/
 
@@ -52,6 +98,10 @@ span {
     margin: 0 auto;
     /* border: 5px purple solid; */
     padding: 5px;
+}
+
+.containerImage {
+    width: 100%;
 }
 
 img {
@@ -72,7 +122,7 @@ img {
     }
 }
 
-/* end of layout styling */
+/***** end of layout styling *****/
 
 /* .col {
      border: 5px pink solid;
@@ -131,6 +181,6 @@ a:hover, a:focus {
 	font-size: 105%;
 }
 
-ul {
+.ul-sources {
     padding-left: 1em;
 }
