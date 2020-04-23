@@ -20,7 +20,6 @@ body {
 
 /******** Typography *******/
 
-
 h1.title {
     font-size: 2.5rem;
     margin-top: 0em;
@@ -45,38 +44,44 @@ p {
     text-align: justify;
 }
 
-/* end Typography */
+/***** end Typography *****/
+
+/***** Header styling *****/
 
 .borderCheck {
     border: 2px pink solid;
-
 }
 
+.borderCheck2 {
+    border: 2px black solid;
+}
 
 span {
     color:#B7832F;
 }
 
-li.nav-li {
+/***** Navigation styling *****/
+
+.nav-list-li {
     list-style-type: none;    
 }
-a.new-color {
+
+.nav-link {
 	color:#4f4f53;
 }
 
-a.new-color:hover {
+.nav-link:hover {
     color: #c68282;
 	font-size: 105%;
 }
-ul.container {
+.nav-list {
     display: flex;
     justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 5px;
 }
 
-.containerImage {
-    width: 100%;
-}
-
+/***** End of Header Styling *****/
 
 /******* LAYOUT *******/
 
@@ -86,6 +91,10 @@ ul.container {
     margin: 0 auto;
     /* border: 5px purple solid; */
     padding: 5px;
+}
+
+.containerImage {
+    width: 100%;
 }
 
 img {
@@ -106,7 +115,7 @@ img {
     }
 }
 
-/* end of layout styling */
+/***** end of layout styling *****/
 
 /* .col {
      border: 5px pink solid;
@@ -165,6 +174,6 @@ a:hover, a:focus {
 	font-size: 105%;
 }
 
-ul {
+.ul-sources {
     padding-left: 1em;
 }
