@@ -10,14 +10,29 @@
 <body>
 
     <div class="container">
-        <header>
-            <hr>
-            <h1>Coronavirus disease <span>(COVID-19)</span> Pandemic info </h1>
-            <hr>
-            <div class="container-smaller">
+        <!-- HEADER CONTENT -->
+        <header class="borderCheck">
+            <div class="site-title centered">
+                <h1 class="title ">Coronavirus disease <span>(COVID-19)</span></h1>
+                <p class="subtitle ">A simple information page</p>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-li"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-list-li"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-list-li"><a class="nav-link" href="recent-post.html">Recent Posts</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <!-- END OF HEADER CONTENT -->
+
+        <div>
+            <div class="containerImage">
                 <img src="./img.jpg" alt="coronovirus image">
             </div>
-        </header>
+        </div>
 
         <section class="columns">
             <div class="col col-1">
@@ -71,11 +86,11 @@
             <div class="col col-fullWidth">
                 <h2 class="centered">For more information</h2>
                 <p>Please visit reliable information sources. Below are some of the major health sources of information from around the world: </p>
-                <ul>
-                    <li><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="">World Health Organization Official Website (WHO)</a></li>
-                    <li><a href="https://www.ecdc.europa.eu/en/publications-data/strategies-surveillance-covid-19" target="_blank" class="">European Centre for Disease Prevention and Control (ECDC) </a></li>
-                    <li><a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-in-us.html" target="_blank" class="">Centers for Disease Control and Prevention Official Website (CDC)</a></li>
-                    <li><a href="https://coronavirus.saude.gov.br/" target="_blank" class="">Ministério da Saúde</a></li>
+                <ul class="ul-sources">
+                    <li class="ul-sources-li"><a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank" class="ul-sources-link">World Health Organization Official Website (WHO)</a></li>
+                    <li class="ul-sources-li"><a href="https://www.ecdc.europa.eu/en/publications-data/strategies-surveillance-covid-19" target="_blank" class="ul-sources-link">European Centre for Disease Prevention and Control (ECDC) </a></li>
+                    <li class="ul-sources-li"><a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fcases-in-us.html" target="_blank" class="ul-sources-link">Centers for Disease Control and Prevention Official Website (CDC)</a></li>
+                    <li class="ul-sources-li"><a href="https://coronavirus.saude.gov.br/" target="_blank" class="ul-sources-link">Ministério da Saúde</a></li>
                 </ul>
             </div>
         </section>
