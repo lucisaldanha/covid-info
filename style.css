@@ -39,6 +39,7 @@ h2 {
 .centered {
     text-align: center;
 }
+
 p {
     margin-top: 0;
     text-align: justify;
@@ -49,12 +50,9 @@ p {
 /***** Header styling *****/
 
 .borderCheck {
-    border: 2px pink solid;
+    /* border: 2px pink solid; */
 }
 
-.borderCheck2 {
-    border: 2px black solid;
-}
 
 span {
     color:#B7832F;
@@ -62,23 +60,32 @@ span {
 
 /***** Navigation styling *****/
 
+.nav {
+    /* border: 2px black solid; */
+}
+
+.nav-list {
+    /* border: 2px orange solid;   */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
 .nav-list-li {
-    list-style-type: none;    
+    /* border: 2px magenta solid;  */
+    margin: 0 8em;
 }
 
 .nav-link {
-	color:#4f4f53;
+    /* border: 2px green solid;  */
+    color:#4f4f53;
+
 }
 
 .nav-link:hover {
     color: #c68282;
 	font-size: 105%;
-}
-.nav-list {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    padding: 5px;
 }
 
 /***** End of Header Styling *****/
