@@ -4,7 +4,8 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Baloo Paaji 2', cursive;
+    /* font-family: 'Baloo Paaji 2', cursive; */
+    font-family: 'Lora', serif;
     font-size: 1rem;
     color: rgb(18, 32, 73);
     background-color: #FFF;
@@ -24,12 +25,13 @@ h1.title {
     font-size: 2.5rem;
     margin-top: 0em;
     margin-bottom: 0em;
-
+    font-weight: 400;
 }
 p.subtitle {
-    font-size: 1rem;
+    font-size: 0.75rem;
     margin-top: 0em;
     text-align: center;
+    font-weight: 900;
 
 }
 
@@ -49,9 +51,15 @@ p {
 
 /***** Header styling *****/
 
-.borderCheck {
-    /* border: 2px pink solid; */
+header {
+    background-color: #312614;
+    color: #a8a1a1;
+    padding-top: 0.8em;
 }
+
+/* .borderCheck {
+    border: 2px pink solid; 
+} */
 
 
 span {
@@ -60,30 +68,32 @@ span {
 
 /***** Navigation styling *****/
 
-.nav {
-    /* border: 2px black solid; */
-}
+/* .nav {
+    border: 2px black solid;
+} */
 
 .nav-list {
     /* border: 2px orange solid;   */
     list-style: none;
     display: flex;
     justify-content: center;
-    
+    padding-bottom: 1em;
 }
 
 .nav-list-li {
     /* border: 2px magenta solid;  */
-    margin: 0 8em;
+    margin: 0 5em;
 }
 
 .nav-link {
     /* border: 2px green solid;  */
-    color:#4f4f53;
+    color:#5e5e69;
+    font-weight: 900;
 
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus {
     color: #c68282;
 	font-size: 105%;
 }
