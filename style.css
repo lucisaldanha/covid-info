@@ -9,7 +9,9 @@ body {
     font-family: 'Lora', serif;
     font-size: 1rem;
     color: rgb(18, 32, 73);
-    background-color: #FFF;
+    /* background-color: #FFF; */
+    background-color: rgba(235, 230, 230, 0.747);
+
     
 }
 
@@ -110,9 +112,9 @@ span {
     width: 90%;
     max-width: 980px; /* setting a maximum it will grow */
     margin: 0 auto;
-    /* border: 5px purple solid; */
+    /* border: 1px rgb(173, 169, 169) solid; */
     padding: 0 5px;
-    background-color: rgba(235, 230, 230, 0.747);
+    /* background-color: rgba(235, 230, 230, 0.747); */
 }
 
 .containerImage {
@@ -158,10 +160,10 @@ img {
     width: 25%;
 }
 .col-2 {
-    width: 40%;
+    width: 45%;
 }
 .col-3 {
-    width: 70%;
+    width: 73%;
 }
 .col-4 {
     width: 20%;
