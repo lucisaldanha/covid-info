@@ -104,6 +104,15 @@ span {
 	font-size: 105%;
 }
 
+.current-page {
+    border-bottom: 1px #5e5e69 solid ;
+}
+
+.current-page:hover {
+    border-bottom: 1px #c68282 solid ;
+
+
+}
 /***** End of Header Styling *****/
 
 /******* LAYOUT *******/
