@@ -23,7 +23,7 @@ body {
     }
 } */
 
-/******** TYPOGRAPHY *******/
+/************************ TYPOGRAPHY ***************************/
 
 h1.title {
     font-size: 2.5rem;
@@ -34,7 +34,6 @@ h1.title {
 p.subtitle {
     font-size: 0.75rem;
     margin-top: 0em;
-    text-align: center;
     font-weight: 900;
 
 }
@@ -53,29 +52,31 @@ p {
 
 /***** END Typography *****/
 
-/***** HEADER STYLING *****/
+/**************************** HEADER STYLING ************************/
 
 header {
     background-color: #312614;
     color: #a8a1a1;
-    padding-top: 1em;
     
 }
-
+div.site-title {
+    margin-left: 1em;
+    /* border: 2px yellow solid; */
+}
 span {
     color:#B7832F;
 }
 
-/* .header-container {
 
-} */
-
-/***** NAVIGATION STYLING *****/
+/****************************** NAVIGATION STYLING ************************/
 
 /* .nav {
     border: 2px black solid;
 } */
 
+nav.nav {
+    margin-right: 1em;
+}
 .nav-list {
     /* border: 2px orange solid;   */
     list-style: none;
@@ -87,7 +88,8 @@ span {
 
 .nav-list-li {
     /* border: 2px magenta solid;  */
-    margin: 0 5em;
+    margin-left: 3em;
+    
 }
 
 .nav-link {
@@ -114,7 +116,15 @@ span {
 }
 /***** END of Header Styling *****/
 
-/******* LAYOUT *******/
+/******************************* LAYOUT *****************************/
+
+.header-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px green solid; */
+}
 
 .main-container {
     width: 90%;
@@ -147,7 +157,6 @@ img {
     }
 }
 
-
 /***** END of layout styling *****/
 
 /* .col {
@@ -160,7 +169,7 @@ img {
     padding: 1em;
 }
 
-/***** Setting columns widths through individual elements *******/
+/************************** Setting columns widths through individual elements ************/
 
 .col-fullWidth{
     width: 100%;
