@@ -23,7 +23,7 @@ body {
     }
 } */
 
-/******** Typography *******/
+/******** TYPOGRAPHY *******/
 
 h1.title {
     font-size: 2.5rem;
@@ -51,9 +51,9 @@ p {
     text-align: justify;
 }
 
-/***** end Typography *****/
+/***** END Typography *****/
 
-/***** Header styling *****/
+/***** HEADER STYLING *****/
 
 header {
     background-color: #312614;
@@ -62,16 +62,15 @@ header {
     
 }
 
-/* .borderCheck {
-    border: 2px pink solid; 
-} */
-
-
 span {
     color:#B7832F;
 }
 
-/***** Navigation styling *****/
+/* .header-container {
+
+} */
+
+/***** NAVIGATION STYLING *****/
 
 /* .nav {
     border: 2px black solid;
@@ -83,7 +82,7 @@ span {
     display: flex;
     justify-content: center;
     padding-bottom: 1em;
-    margin-bottom: 0; /* keeps img and header without spaces between them */
+    margin-bottom: 0.2em; /* keeps img and header without spaces between them */
 }
 
 .nav-list-li {
@@ -113,11 +112,11 @@ span {
 
 
 }
-/***** End of Header Styling *****/
+/***** END of Header Styling *****/
 
 /******* LAYOUT *******/
 
-.container {
+.main-container {
     width: 90%;
     max-width: 980px; /* setting a maximum it will grow */
     margin: 0 auto;
@@ -148,7 +147,8 @@ img {
     }
 }
 
-/***** end of layout styling *****/
+
+/***** END of layout styling *****/
 
 /* .col {
      border: 5px pink solid;
@@ -161,6 +161,7 @@ img {
 }
 
 /***** Setting columns widths through individual elements *******/
+
 .col-fullWidth{
     width: 100%;
 }
