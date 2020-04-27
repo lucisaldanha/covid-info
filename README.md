@@ -12,6 +12,8 @@ With the spread of the Coronavirus in 2020, I decided to use this topic for this
 
 ## Next Steps
 
-- Work on new branch nav 
+- Work on new Nav layout.
 
-- To be Define later
+- Think about layout of Footer later, after Header layout is finished.
+
+- To be Define later.
