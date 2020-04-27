@@ -23,25 +23,44 @@ body {
     }
 } */
 
-/******** Typography *******/
+/************************ TYPOGRAPHY ***************************/
 
 h1.title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 0em;
     margin-bottom: 0em;
-    font-weight: 400;
+    font-weight: 700;
 }
+@media (max-width: 675px) {
+    h1.title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
 p.subtitle {
     font-size: 0.75rem;
     margin-top: 0em;
-    text-align: center;
     font-weight: 900;
-
+}
+@media (max-width: 675px) {
+    p.subtitle {
+        font-size: 0.7rem;
+        font-weight: 500;
+        text-align: center;
+    }
 }
 
 h2 {
     font-size: 1.5rem;
 }
+@media (max-width: 675px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
 .centered {
     text-align: center;
 }
@@ -50,52 +69,56 @@ p {
     margin-top: 0;
     text-align: justify;
 }
+@media (max-width: 675px) {
+    p {
+        font-size: 0.9rem;
+    }
+}
+/***** END Typography *****/
 
-/***** end Typography *****/
-
-/***** Header styling *****/
+/**************************** HEADER STYLING ************************/
 
 header {
     background-color: #312614;
     color: #a8a1a1;
-    padding-top: 1em;
     
 }
-
-/* .borderCheck {
-    border: 2px pink solid; 
-} */
-
 
 span {
     color:#B7832F;
 }
 
-/***** Navigation styling *****/
+/****************************** NAVIGATION STYLING ************************/
 
-/* .nav {
-    border: 2px black solid;
-} */
 
 .nav-list {
     /* border: 2px orange solid;   */
     list-style: none;
     display: flex;
-    justify-content: center;
-    padding-bottom: 1em;
-    margin-bottom: 0; /* keeps img and header without spaces between them */
+   
 }
-
 .nav-list-li {
     /* border: 2px magenta solid;  */
-    margin: 0 5em;
+    margin-left: 2em;
+    
+}
+@media (max-width: 675px) {
+    .nav-list {
+    /* media query properly placed after the default selector we already have */
+        flex-direction: column;
+        padding-left: 0em;
+        align-items: center;
+    }
+    .nav-list-li {
+        margin: 0.5em 0;
+    }
+    
 }
 
 .nav-link {
     /* border: 2px green solid;  */
     color:#5e5e69;
     font-weight: 900;
-
 }
 
 .nav-link:hover,
@@ -110,18 +133,32 @@ span {
 
 .current-page:hover {
     border-bottom: 1px #c68282 solid ;
-
-
 }
-/***** End of Header Styling *****/
+/***** END of Header Styling *****/
 
-/******* LAYOUT *******/
+/******************************* LAYOUT *****************************/
 
-.container {
-    width: 90%;
+.header-container {
+    /* border: 2px green solid; */
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+@media (max-width: 675px) {
+    .header-container {
+    /* media query properly placed after the default selector we already have */
+        flex-direction: column;
+    }
+}
+
+.main-container {
+    /* border: 1px rgb(173, 169, 169) solid; */
+    width: 95%;
     max-width: 980px; /* setting a maximum it will grow */
     margin: 0 auto;
-    /* border: 1px rgb(173, 169, 169) solid; */
     padding: 0 5px;
     /* background-color: rgba(235, 230, 230, 0.747); */
 }
@@ -131,6 +168,7 @@ span {
 }
 
 img {
+    margin-top: 1.2em;
     max-width: 100%;
 }
 
@@ -141,18 +179,14 @@ img {
     margin: 0.5em 0;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 675px) {
     .columns {
     /* media query properly placed after the default selector we already have */
         flex-direction: column;
     }
 }
 
-/***** end of layout styling *****/
-
-/* .col {
-     border: 5px pink solid;
-}  */
+/***** END of layout styling *****/
 
 .col-colorNew {
     background-color: #312614;
@@ -160,7 +194,8 @@ img {
     padding: 1em;
 }
 
-/***** Setting columns widths through individual elements *******/
+/************************** Setting columns widths through individual elements ************/
+
 .col-fullWidth{
     width: 100%;
 }
@@ -177,8 +212,7 @@ img {
 .col-4 {
     width: 20%;
 }
-
-@media (max-width: 600px) {
+@media (max-width: 675px) {
     /* media query properly placed after the default selector we already have */
     .col-1, 
     .col-2, 
@@ -186,6 +220,10 @@ img {
     .col-4 {
         width: 100%;
     }
+}
+
+.ul-sources {
+    padding-left: 1em;
 }
 
 .btn {
@@ -207,6 +245,8 @@ a:hover, a:focus {
 	font-size: 105%;
 }
 
-.ul-sources {
-    padding-left: 1em;
+@media (max-width: 675px) {
+    a, .btn {
+        font-size: 0.9rem;
+    }
 }
