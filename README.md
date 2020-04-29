@@ -12,7 +12,9 @@ With the spread of the Coronavirus in 2020, I decided to use this topic for this
 
 ## Next Steps
 
-- Work on new Nav layout.
+- Work on new Header layout. Desktop view and mobile view are good. We need to add another media where we can scroll down and see which pages to access.
+
+- Still on Header, maybe add another element on header, like Lusalga image instead of Title and subtitle on the beginning of header.
 
 - Think about layout of Footer later, after Header layout is finished.
 
