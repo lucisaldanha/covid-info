@@ -227,6 +227,16 @@ img {
     padding-left: 1em;
 }
 
+footer {
+    background-color: #312614;
+    color: #a8a1a1;
+    padding: 0.5em;
+}
+.footer-container {
+    margin: 0 auto;
+    max-width: 980px;
+}
+
 .btn {
 	display: inline-block;
 	color: #eedcdc;
@@ -251,3 +261,4 @@ a:hover, a:focus {
         font-size: 0.9rem;
     }
 }
+
