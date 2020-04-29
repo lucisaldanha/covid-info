@@ -16,6 +16,4 @@ With the spread of the Coronavirus in 2020, I decided to use this topic for this
 
 - Still on Header, maybe add another element on header, like Lusalga image instead of Title and subtitle on the beginning of header.
 
-- Think about layout of Footer later, after Header layout is finished.
-
 - To be Define later.
