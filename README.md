@@ -16,4 +16,6 @@ With the spread of the Coronavirus in 2020, I decided to use this topic for this
 
 - Still on Header, maybe add another element on header, like Lusalga image instead of Title and subtitle on the beginning of header.
 
+- Deploy Website using Github Pages.
+
 - To be Define later.
