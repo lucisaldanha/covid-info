@@ -6,9 +6,9 @@ This website is one of the projects I created while taking the course "Introduct
 
 ## Objective
 
-Start to think responsively, thinking about the final layout of my website.
+Learn how to think responsively, having the final layout of website in mind.
 
-With the spread of the Coronavirus in 2020, I decided to use this topic for this responsive project, adding some tips to prevent the spread of virus and where to find information in many regions of the world.
+With the spread of the Coronavirus in the year of 2020, I decided to use this topic for this responsive project, adding tips to prevent the spread of the virus and where to find information in many regions of the world.
 
 ## Next Steps
 
@@ -19,3 +19,7 @@ With the spread of the Coronavirus in 2020, I decided to use this topic for this
 - Deploy Website using Github Pages.
 
 - To be Define later.
+
+## Skills 
+
+- HTML, CSS, Media Queries, Responsive Web Design.
