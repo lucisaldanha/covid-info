@@ -117,7 +117,7 @@ span {
 
 .nav-link {
     /* border: 2px green solid;  */
-    color:#5e5e69;
+    color:#a8a1a1;
     font-weight: 900;
 }
 
@@ -128,7 +128,7 @@ span {
 }
 
 .current-page {
-    border-bottom: 1px #5e5e69 solid ;
+    border-bottom: 1px #a8a1a1 solid ;
 }
 
 .current-page:hover {
