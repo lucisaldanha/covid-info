@@ -81,6 +81,7 @@ p {
 header {
     background-color: #312614;
     color: #a8a1a1;
+    margin-top: 0.2rem;
     
 }
 
@@ -169,7 +170,7 @@ span {
 }
 
 img {
-    margin-top: 1.2em;
+    margin-top: 0.2em;
     max-width: 100%;
 }
 
